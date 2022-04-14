@@ -1,0 +1,163 @@
+---
+title: "Hello, World!"
+layout: "base.njk"
+---
+
+<div class="container">
+  <h1 style="margin-block: 3rem;">Design System</h1>
+  {# Color Palette Section #}
+  <section id="colors">
+    <h2>Main color palette</h2>
+    <ul class="grid" id="colors-grid">
+      <li id="bg-color">
+        <div></div>
+        <h4>Background</h4>
+        <p>#FFFAF3</p>
+      </li>
+      <li id="primary-color">
+        <div></div>
+        <h4>Primary</h4>
+        <p>#1A4A85</p>
+      </li>
+      <li id="secondary-color">
+        <div></div>
+        <h4>Secondary</h4>
+        <p>#00C6BD</p>
+      </li>
+      <li id="black-color">
+        <div></div>
+        <h4>Black</h4>
+        <p>#000000</p>
+      </li>
+      <li id="white-color">
+        <div></div>
+        <h4>White</h4>
+        <p>#FFFFFF</p>
+      </li>
+      <li id="green-color">
+        <div></div>
+        <h4>Green</h4>
+        <p>#88e281</p>
+      </li>
+    </ul>
+  </section>
+  {# Typography Section #}
+  <section id="typography">
+    <h2>Typography</h2>
+    <div class="sample-box">
+      <h1>Size 5</h1>
+      <h2>Size 4</h2>
+      <h3>Size 3</h3>
+      <h4>Size 2</h4>
+      <h5>Size 5</h5>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto harum necessitatibus iure blanditiis quia beatae, quos
+        dolorem doloremque eius.
+      </p>
+    </div>
+  </section>
+  {# Buttons Section #}
+  <section id="buttons">
+    <h2>Buttons & Links</h2>
+    <div class="sample-box">
+      <ul class="buttons-links">
+        <li>
+          <a href="#">Link</a>
+        </li>
+        <li>
+          <a href="#">Styled Link</a>
+        </li>
+        <li>
+          <a class="button" href="#">External Button</a>
+        </li>
+        <li>
+          <button class="button" type="button">Regular Button</button>
+        </li>
+      </ul>
+    </div>
+  </section>
+  {# Cards Section #}
+  <section id="cards">
+    <h2>Cards</h2>
+    <ul class="cards-grid grid">
+      <li class="card">
+        <div class="card--content">
+          <h3>
+            <a href="#">Card title</a>
+          </h3>
+          <div class="tag-stack">
+            <span class="tag">Tag 1</span>
+            <span class="tag">Tag 2</span>
+          </div>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt eos natus autem reprehenderit? Sequi, ut?</p>
+          <div class="card--buttons">
+            <a class="button card--button" href="#">Link</a>
+            <a class="button card--button" href="#">Link</a>
+          </div>
+        </div>
+      </li>
+      <li class="card">
+        <div class="card--content">
+          <h3>
+            <a href="#">Card title</a>
+          </h3>
+          <div class="tag-stack">
+            <span class="tag">Tag 1</span>
+            <span class="tag">Tag 2</span>
+          </div>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt eos natus autem reprehenderit? Sequi, ut?</p>
+          <div class="card--buttons">
+            <a class="button card--button" href="#">Link</a>
+            <a class="button card--button" href="#">Link</a>
+          </div>
+        </div>
+      </li>
+      <li class="card">
+        <div class="card--content">
+          <h3>
+            <a href="#">Card title</a>
+          </h3>
+          <div class="tag-stack">
+            <span class="tag">Tag 1</span>
+            <span class="tag">Tag 2</span>
+          </div>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt eos natus autem reprehenderit? Sequi, ut?</p>
+          <div class="card--buttons">
+            <a class="button card--button" href="#">Link</a>
+            <a class="button card--button" href="#">Link</a>
+          </div>
+        </div>
+      </li>
+      <li class="card">
+        <div class="card--content">
+          <h3>
+            <a href="#">Card title</a>
+          </h3>
+          <div class="tag-stack">
+            <span class="tag">Tag 1</span>
+            <span class="tag">Tag 2</span>
+          </div>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt eos natus autem reprehenderit? Sequi, ut?</p>
+          <div class="card--buttons">
+            <a class="button card--button" href="#">Link</a>
+            <a class="button card--button" href="#">Link</a>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </section>
+  {# Forms Section #}
+  <section class="forms--section">
+    <h2>Forms</h2>
+    <div class="forms">
+      <form action="" id="contactForm" method="FORM" name="contact">
+        <label for="fname">First Name</label>
+        <input class="input" type=" text" id="fname" name="firstname" required="required">
+        <label for="lname">Last Name</label>
+        <input class="input" type=" text" id="lname" name="lastname" required="required">
+        <label for="message">Message</label>
+        <textarea class="input" id="textarea" required="required"></textarea>
+        <input class="button" type="submit" value="Submit">
+      </form>
+    </div>
+  </section>
+</div>

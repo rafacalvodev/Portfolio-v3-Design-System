@@ -1,0 +1,41 @@
+body {
+  font-family: 'Work Sans', Helvetica, sans-serif;
+  color: var(--black);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: var(--font-5);
+}
+
+h2 {
+  font-size: var(--font-4);
+}
+
+h3 {
+  font-size: var(--font-3);
+}
+
+h4 {
+  font-size: var(--font-2);
+}
+
+h5 {
+  font-size: var(--font-1);
+}
+
+p {
+  font-size: var(--font-0);
+  max-width: 65ch;
+}
+
+a {
+  font-size: var(--font-0);
+}

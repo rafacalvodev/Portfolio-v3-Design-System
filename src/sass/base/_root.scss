@@ -1,0 +1,43 @@
+/* @link https://utopia.fyi/type/calculator?c=320,16,1.2,1140,24,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l */
+
+:root {
+  /* Color */
+  --main-bg: #FFFAF3;
+  --primary: #1A4A85;
+  --secondary: #E7BA4B;
+  // --secondary: #DF765E;
+  --v-dark-grey: #121212;
+  --black: #000000;
+  --white: #ffffff;
+  --green: #88e281;
+
+  /* Shadows */
+  --solid-shadow: 0.25em 0.25em 0px 0px rgba(0, 0, 0, 1);
+  --button-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 1);
+
+  /* Typography sizes */
+  --font--2: clamp(0.80rem, calc(0.47rem + 0.46vw), 0.56rem);
+  --font--1: clamp(1.00rem, calc(0.55rem + 0.63vw), 0.68rem);
+  --font-0: clamp(0.81rem, calc(0.64rem + 0.85vw), 1.25rem);
+  --font-1: clamp(0.98rem, calc(0.75rem + 1.15vw), 1.56rem);
+  --font-2: clamp(1.17rem, calc(0.86rem + 1.53vw), 1.95rem);
+  --font-3: clamp(1.40rem, calc(1.00rem + 2.02vw), 2.44rem);
+  --font-4: clamp(1.69rem, calc(1.15rem + 2.67vw), 3.05rem);
+  --font-5: clamp(2.02rem, calc(1.32rem + 3.50vw), 3.82rem);
+
+  /* Spacing */
+  --space-size-0: clamp(0.83rem, 0.9rem + -0.32vw, 0.67rem);
+  --space-base: clamp(1rem, 1rem + 0vw, 1rem);
+  --space-size-1: clamp(1.2rem, 1.08rem + 0.59vw, 1.5rem);
+  --space-size-2: clamp(1.44rem, 1.12rem + 1.58vw, 2.25rem);
+  --space-size-3: clamp(1.73rem, 1.09rem + 3.21vw, 3.38rem);
+  --space-size-4: clamp(2.07rem, 0.91rem + 5.83vw, 5.06rem);
+  --space-size-5: clamp(2.49rem, 0.5rem + 9.96vw, 7.59rem);
+  --size-size-0: clamp(0.83rem, 0.9rem + -0.32vw, 0.67rem);
+
+  /* Border radius */
+  --xs-radius: 0.15em;
+  --small-radius: 0.2em;
+  --medium-radius: 0.5em;
+  --large-radius: 1em;
+}

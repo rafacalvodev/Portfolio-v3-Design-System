@@ -1,0 +1,40 @@
+.grid {
+  --min: 20ch;
+  --gap: 1rem;
+
+  display: grid;
+  grid-gap: var(--gap);
+  /* min() with 100% prevents overflow
+  in extra narrow spaces */
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--min)), 1fr));
+}
+
+#colors-grid {
+  li {
+    border: 0.15em solid var(--black);
+    border-radius: var(--medium-radius);
+    box-shadow: 0.2em 0.2em 0px 0px rgba(0, 0, 0, 1);
+  }
+
+  * {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h4 {
+      margin-top: 2rem;
+    }
+
+    p {
+      justify-self: flex-end;
+    }
+
+    :first-child {
+      height: 7rem;
+      width: 100%;
+      // background-color: black;
+      border-bottom: 1px solid var(--black);
+      border-radius: var(--small-radius) var(--small-radius) 0 0;
+    }
+  }
+}

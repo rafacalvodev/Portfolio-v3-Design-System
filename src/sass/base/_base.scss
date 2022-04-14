@@ -1,0 +1,32 @@
+body {
+  background-color: var(--main-bg);
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  line-height: 1.65;
+}
+
+a:not([class]) {
+  -webkit-text-decoration-skip: ink;
+  text-decoration-skip-ink: auto;
+  text-underline-offset: .08em;
+}
+
+:is(a, button, summary, .button) {
+  /* Using max() ensures at least a value of 2px, 
+  while allowing the possibility of scaling 
+  relative to the component */
+  --outline-size: max(2px, 0.08em);
+  --outline-style: solid;
+  --outline-color: currentColor;
+}
+
+:is(a, button, summary, .button):focus {
+  outline: var(--outline-size) var(--outline-style) var(--outline-color);
+  outline-offset: var(--outline-offset, var(--outline-size));
+}
+
+:is(a, button, .button):focus-visible {
+  outline: var(--outline-size) var(--outline-style) var(--outline-color);
+  outline-offset: var(--outline-offset, var(--outline-size));
+}

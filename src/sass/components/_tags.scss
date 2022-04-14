@@ -1,0 +1,13 @@
+.tag-stack {
+  display: flex;
+  gap: 1em;
+  flex-flow: wrap;
+}
+
+.tag {
+  background-color: var(--secondary);
+  padding: 0.1em 0.4em;
+  border: 0.15em solid var(--black);
+  border-radius: var(--medium-radius);
+  box-shadow: var(--solid-shadow);
+}
